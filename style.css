@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins';
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.section-padding {
+    padding: 40px 0 20px;
+}
+
+.top-banner {
+    background-color: #fbebe9;
+}
+
+.top-banner h1 {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.carousel-item {
+    padding: 20px 50px;
+}
+
+.carousel-indicators li {
+    padding: 3px;
+    background-color: #fff;
+}
+
+.carousel-indicators li.active {
+    background-color: #ff136f;
+}
+
+.price {
+    color: #ff136f;
+    display: block;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.boxed-btn {
+    display: inline-block;
+    background-image: linear-gradient(to bottom, #FF589B 0%, #ff136f 100%);
+    color: #fff;
+    padding: 10px 25px;
+    cursor: pointer;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-top: 15px;
+}
+
+.boxed-btn:hover {
+    color: #ffcd1b;
+}
+
+.boxed-btn.btn-black {
+    background-color: #000;
+    border: none;
+    background-image: none;
+}
+
+.cat1,
+.cat2,
+.cat3 {
+    padding: 10px 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.cat1 h1,
+.cat2 h1,
+.cat3 h1 {
+    color: #fff;
+}
+
+.cat1 img,
+.cat2 img,
+.cat3 img {
+    width: 120px;
+}
+
+.cat1 {
+    background-image: linear-gradient(to left, #ff9c35 0%, #ffcd1b 100%);
+}
+
+.cat2 {
+    background-image: linear-gradient(#ff5398, #ff1d75);
+}
+
+.cat3 {
+    background-image: linear-gradient(120deg, #4289ff, #3f07f8);
+}
+
+.card {
+    border: none;
+    background-color: #fff;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    box-shadow: 5px 5px 10px #ddd;
+}
+
+.shoes-area,
+.backpack-area {
+    background-color: #f8f8f8;
+    color: #707070;
+}
+
+.shoes-area h5 {
+    font-size: 24px;
+    color: #1f1f1f;
+}
+
+.shoes-area h4,
+.backpack-area h4 {
+    margin-bottom: 20px;
+    color: #1f1f1f;
+    font-weight: 600;
+}
+
+.card-footer {
+    background-color: transparent;
+    border-top: 0;
+}
+
+.backpack-area {
+    padding-bottom: 50px;
+}
